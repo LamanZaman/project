@@ -1,0 +1,307 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+
+}
+
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+header .text {
+    justify-content: space-between;
+}
+
+header {
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+header ul {
+    list-style-type: none;
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+    margin: 15px;
+    font-size: 20px;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+header a:hover {
+    color: #f4623a;
+}
+
+#contact {
+    height: 100vh;
+    background-image: url(" https://startbootstrap.github.io/startbootstrap-creative/assets/img/bg-masthead.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
+
+}
+
+#contact .build {
+    text-align: center;
+    padding-top: 20%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-seri;
+}
+
+#contact .build h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+    color: white;
+    text-align: center;
+}
+
+#contact .build hr {
+    width: 30px;
+    height: 5px;
+    background-color: #f4623a;
+    margin-left: 50%;
+}
+
+#contact .build p {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 700;
+    margin-bottom: 35px;
+    color: white;
+    opacity: 0.9;
+    text-align: center;
+}
+
+#contact .build a {
+    background-color: #f4623a;
+    color: white;
+    text-decoration: none;
+    padding: 20px 25px;
+    border-radius: 10px;
+    transition: 0.5s;
+    
+}
+
+#contact .build a:hover {
+    background-color: #bb3612;
+
+
+}
+
+
+
+#orange .source {
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-color:#de4920 ;
+    height: 70vh;
+
+}
+
+#orange .source h1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+    color: white;
+
+}
+#orange .source hr{
+    width: 80px;
+    height: 3px;
+    margin-left: 46%;
+    background-color: white;
+}
+
+#orange .source p {
+    font-size: 20px;
+    color: white;
+    opacity: 0.9;
+
+    margin-bottom: 35px;
+    opacity: 0.9;
+}
+#orange .source a{
+    background-color:white;
+    color: white;
+    text-decoration: none;
+    padding: 20px 25px;
+    border-radius: 30px;
+    transition: 0.5s;
+    color:black;
+}
+#orange .source a:hover{
+    background-color:rgb(192, 188, 188);
+}
+#love{
+    height:60vh;
+    margin-top: 5%;
+    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#love .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+}
+
+#love .date h1{
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 40px;
+    text-align: center;
+}
+#love .date hr{
+    width: 80px;
+    height: 3px;
+    margin-left: 46%;
+    background-color:#de4920 ;
+    margin-top: 2rem;
+    
+}
+#love .box i{
+    padding: 30px;
+    background-color: white;
+    color: #d66032;
+    
+    font-size: 60px;
+}
+#love .boxes .box h4{
+    font-size: 20px;
+}
+#love .boxes .box p{
+    font-size: 20px;
+    opacity: 0.8;
+}
+#sixboxs {
+  
+    width: 100%;
+}
+
+   #sixboxs .boxes {
+    width: 100%;
+   display: flex;
+    flex-wrap: wrap;
+}
+#sixboxs .boxes .box .orange-box {
+ position: absolute;
+top: 0;
+left:0;
+width: 100%;
+height: 100%;
+background-color: rgba(244, 98, 58, 0.9);
+opacity: 0;
+visibility: hidden;
+transition: 0.4s;
+}
+#sixboxs .boxes .box:hover .orange-box {
+    opacity: 1;
+visibility: visible;
+}
+#sixboxs .boxes .box {
+    width: 33%;
+position: relative;
+transform: scale(1);
+transition: 0.5s;
+}
+#sixboxs .boxes .box img {
+    width: 100%;
+    vertical-align: middle;
+  }
+  #sixboxs  .orange-box .box-text {
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    color:white;
+    font-size: 16px;
+    z-index: 5;
+
+
+    }
+    #sixboxs  .orange-box .box-text p{
+opacity: 0.6;}
+#grey {
+background-color: #212529;
+padding: 8rem;
+
+
+}
+#grey .box-text {
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+#grey .box-text h1 {
+    color: white;
+margin-bottom: 40px;
+font-size: 30px;
+}
+    #grey .box-text a {
+        background-color: white;
+border-radius: 10rem;
+transition: 0.5s;
+padding: 20px 36px;
+text-decoration: none;
+color: black;
+font-size: 15px;
+font-weight: bold;
+    }
+    #grey .box-text a:hover {
+background-color: rgb(202, 198, 198);
+    }
+    #last{
+width: 100%;
+height: 100vh;
+    }
+    #last .box-text{
+        text-align: center;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    #last .box-text h1{
+        font-size: 30px;
+        font-weight: bold;
+        margin: 8rem 0 25px 0;
+        
+   opacity: 0.9;
+    }
+    #last .box-text p{
+ font-size: 20px;
+ opacity: 0.5;
+margin-bottom: 30px;
+}
+#last  input  {
+padding: 15px 300px 15px 0px;
+margin:10px 0 5px 300px;
+width: 50%;
+border-radius: 5px ;
+border-color: rgba(128, 128, 128, 0.521);
+}
+#last  hr{
+    width: 80px;
+    height: 3px;
+    margin-left: 46%;
+    background-color:#de4920 ;
+    margin-top: 2rem;
+ margin-bottom: 10px;
+}
